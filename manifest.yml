@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: lab8bai1
+  host: lab8bai1
+  disk_quota: 1024M
+  services:
+  - lab8bai1-AdvancedMobileAccess
+  - lab8bai1-imfpush
+  - lab8bai1-cloudantNoSQLDB
